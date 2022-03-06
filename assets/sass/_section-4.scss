@@ -1,0 +1,82 @@
+.section-4 {
+  margin: 96px 0px 0px 140px;
+  .text {
+    h1 {
+      color: black;
+      display: flex;
+      font-family: sans-serif;
+      font-size: 32px;
+      line-height: 32px;
+      p {
+        color: #212b36;
+      }
+    }
+    .littel {
+      color: #637381;
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 22px;
+      span {
+        color: #212b36;
+      }
+    }
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    .box-first {
+      display: flex;
+      margin-top: 40px;
+      padding: 25px 0px 25px 56px;
+      width: 1160px;
+      border: 1px solid #e2e4eb;
+      border-radius: 8px;
+      svg {
+        path {
+          stroke: #6554C0;
+        }
+        margin-top: 4px;
+      }
+      .text-1 {
+        display: flex;
+        margin-left: 16px;
+        p {
+          font-family: sans-serif;
+          font-size: 16px;
+          line-height: 22px;
+          color: #212b36;
+        }
+        span {
+          font-family: sans-serif;
+          font-weight: 500;
+          font-size: 9px;
+          line-height: 140%;
+          margin: 4px 0px 0px 17px;
+          color: #ffffff;
+          background: #ffb800;
+          border-radius: 100px;
+          padding: 3px;
+          margin-top: 4px;
+        }
+      }
+    }
+    .box {
+      margin-top: 4px;
+      padding: 25px 0px 25px 56px;
+      width: 1160px;
+      border: 1px solid #e2e4eb;
+      border-radius: 8px;
+      display: flex;
+      svg{
+          margin-top: 4;
+      }
+      p {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        color: #212b36;
+        margin-left: 16px;
+      }
+    }
+  }
+}

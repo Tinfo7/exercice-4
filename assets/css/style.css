@@ -48,7 +48,7 @@ nav .btn-1 .icon-profile { margin-left: -34px; margin-top: 8px; }
 
 .section-1 .row .row-2 img { width: 564px; height: 320px; border-radius: 6px; margin-right: 140px; }
 
-.cards { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+.cards { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .cards .card-1 { border: 2px solid #e2e4eb; width: 564px; height: 336px; margin: 64px; border-radius: 8px; }
 
@@ -86,5 +86,51 @@ nav .btn-1 .icon-profile { margin-left: -34px; margin-top: 8px; }
 
 .cards .card-2 .text-icon-v2-4 svg { margin: 6px 14px 0px 0px; }
 
-.box { width: 1160px; height: 298px; background: #eef0fe; border-radius: 8px; }
+.section-3 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 48px; }
+
+.section-3 .row-3 { width: 1160px; height: 298px; background: #eef0fe; border-radius: 8px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.section-3 .row-3 .circels { background: #6554c0; width: 64px; height: 64px; border-radius: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-left: 80px; }
+
+.section-3 .row-3 .colom-1 h2 { font-family: sans-serif; font-size: 24px; line-height: 32px; }
+
+.section-3 .row-3 .colom-1 p { font-family: sans-serif; font-size: 16px; line-height: 26px; color: #637381; margin-left: 30px; }
+
+.section-3 .row-3 .colom-2 h2 { font-family: sans-serif; font-size: 24px; line-height: 32px; margin-left: 30px; }
+
+.section-3 .row-3 .colom-2 p { font-family: sans-serif; font-size: 16px; line-height: 26px; color: #637381; }
+
+.section-3 .row-3 .colom-3 h2 { font-family: sans-serif; font-size: 24px; line-height: 32px; }
+
+.section-3 .row-3 .colom-3 p { font-family: sans-serif; font-size: 16px; line-height: 26px; color: #637381; margin-left: 20px; }
+
+.section-4 { margin: 96px 0px 0px 140px; }
+
+.section-4 .text h1 { color: black; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: sans-serif; font-size: 32px; line-height: 32px; }
+
+.section-4 .text h1 p { color: #212b36; }
+
+.section-4 .text .littel { color: #637381; font-family: sans-serif; font-size: 14px; line-height: 22px; }
+
+.section-4 .text .littel span { color: #212b36; }
+
+.section-4 .boxes { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.section-4 .boxes .box-first { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 40px; padding: 25px 0px 25px 56px; width: 1160px; border: 1px solid #e2e4eb; border-radius: 8px; }
+
+.section-4 .boxes .box-first svg { margin-top: 4px; }
+
+.section-4 .boxes .box-first svg path { stroke: #6554C0; }
+
+.section-4 .boxes .box-first .text-1 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-left: 16px; }
+
+.section-4 .boxes .box-first .text-1 p { font-family: sans-serif; font-size: 16px; line-height: 22px; color: #212b36; }
+
+.section-4 .boxes .box-first .text-1 span { font-family: sans-serif; font-weight: 500; font-size: 9px; line-height: 140%; margin: 4px 0px 0px 17px; color: #ffffff; background: #ffb800; border-radius: 100px; padding: 3px; margin-top: 4px; }
+
+.section-4 .boxes .box { margin-top: 4px; padding: 25px 0px 25px 56px; width: 1160px; border: 1px solid #e2e4eb; border-radius: 8px; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.section-4 .boxes .box svg { margin-top: 4; }
+
+.section-4 .boxes .box p { font-family: sans-serif; font-size: 16px; line-height: 22px; color: #212b36; margin-left: 16px; }
 /*# sourceMappingURL=style.css.map */
