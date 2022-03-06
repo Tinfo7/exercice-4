@@ -1,0 +1,111 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  .card-1 {
+    border: 2px solid #e2e4eb;
+    width: 564px;
+    height: 336px;
+    margin: 64px;
+    border-radius: 8px;
+    h2 {
+      padding: 48px 0px 0px 48px;
+      font-family: "SF Pro", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 32px;
+    }
+    .text-icon-1 {
+      display: flex;
+      margin-top: 40px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+    .text-icon-2 {
+      display: flex;
+      margin-top: 24px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+    .text-icon-3 {
+      display: flex;
+      margin-top: 24px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+  }
+  .card-2 {
+    border: 2px solid #e2e4eb;
+    width: 564px;
+    height: 336px;
+    margin: 64px;
+    border-radius: 8px;
+    h2 {
+      padding: 48px 0px 0px 48px;
+      font-family: "SF Pro", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 32px;
+    }
+    .text-icon-v2-1 {
+      display: flex;
+      margin-top: 40px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+    .text-icon-v2-2 {
+      display: flex;
+      margin-top: 24px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+    .text-icon-v2-3 {
+      display: flex;
+      margin-top: 24px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+    .text-icon-v2-4 {
+      display: flex;
+      margin-top: 24px;
+      margin-left: 48px;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      svg {
+        margin: 6px 14px 0px 0px;
+      }
+    }
+  }
+}

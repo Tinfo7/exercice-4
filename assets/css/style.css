@@ -1,0 +1,90 @@
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav { border: 2px solid #e9ebf0; width: 100%; height: 64px; }
+
+nav .menu-1 { border-right: 2px solid #e9ebf0; display: block; width: 64px; height: 62px; }
+
+nav .menu-1 .menu-2 { margin-left: 23px; margin-top: 25px; cursor: pointer; }
+
+nav .input-1 { margin-left: 80px; margin-top: -52px; }
+
+nav .input-1 .icon-search { position: absolute; margin-left: 10px; margin-top: 13px; cursor: pointer; }
+
+nav .input-1 input { border: none; outline: none; background-color: #f4f5f7; border-radius: 4px; width: 264px; height: 40px; font-size: 15px; padding-left: 35px; }
+
+nav .btn-1 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-right: 40px; margin-top: -41px; cursor: pointer; }
+
+nav .btn-1 .btn-2 { border: none; outline: none; background: #9e8ef6; border-radius: 100px; padding: 10px 40px 10px 18px; color: white; font-family: "SF Pro", sans-serif; font-size: 14px; line-height: 20px; cursor: pointer; }
+
+nav .btn-1 .icon-profile { margin-left: -34px; margin-top: 8px; }
+
+.section-1 { background-color: #212b36; width: 100%; height: 548px; }
+
+.section-1 .row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.section-1 .row .row-1 .titel { font-family: "SF Pro", sans-serif; font-style: normal; font-weight: bold; font-size: 40px; line-height: 50px; color: #fff; padding-left: 140px; padding-top: 64px; }
+
+.section-1 .row .row-1 .text .text-1 p { font-family: "SF Pro", sans-serif; font-size: 14px; line-height: 18px; color: #d0d5d9; margin-left: 164px; margin-top: 32px; }
+
+.section-1 .row .row-1 .text .text-1 .icon-headphone { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-top: -14px; margin-left: 141px; }
+
+.section-1 .row .row-1 .text .text-2 p { font-family: "SF Pro", sans-serif; font-size: 14px; line-height: 18px; color: #d0d5d9; margin-left: 164px; margin-top: 32px; }
+
+.section-1 .row .row-1 .text .text-2 .icon-light { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; margin-top: -14px; margin-left: 141px; }
+
+.section-1 .row .row-1 .line { margin-top: 48px; margin-left: 140px; width: 32%; opacity: 0.05; }
+
+.section-1 .row .row-1 .btn-3 { margin: 32px 0px 0px 140px; border: none; outline: none; background: #ffb800; border-radius: 100px; padding: 21px 48px 21px 48px; cursor: pointer; /******** text *********/ font-family: "SF Pro", sans-serif; font-size: 20px; line-height: 22px; }
+
+.section-1 .row .row-1 .pric { display: -webkit-box; display: -ms-flexbox; display: flex; margin-left: 394px; margin-top: -53px; }
+
+.section-1 .row .row-1 .pric h1 { font-family: "SF Pro", sans-serif; font-style: normal; font-weight: bold; font-size: 32px; line-height: 20px; color: #fff; }
+
+.section-1 .row .row-1 .pric span { font-family: "SF Pro", sans-serif; font-style: normal; font-weight: bold; line-height: 20px; color: #fff; margin-left: 10px; margin-top: 2px; }
+
+.section-1 .row .row-1 .discription { margin-left: 394px; margin-top: 10px; margin: 10px 0px 0px 394px; font-family: "SF Pro", sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 18px; color: #d0d5d9; }
+
+.section-1 .row .row-2 { margin-top: 64px; }
+
+.section-1 .row .row-2 img { width: 564px; height: 320px; border-radius: 6px; margin-right: 140px; }
+
+.cards { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.cards .card-1 { border: 2px solid #e2e4eb; width: 564px; height: 336px; margin: 64px; border-radius: 8px; }
+
+.cards .card-1 h2 { padding: 48px 0px 0px 48px; font-family: "SF Pro", sans-serif; font-style: normal; font-weight: bold; font-size: 32px; line-height: 32px; }
+
+.cards .card-1 .text-icon-1 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 40px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-1 .text-icon-1 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-1 .text-icon-2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 24px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-1 .text-icon-2 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-1 .text-icon-3 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 24px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-1 .text-icon-3 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-2 { border: 2px solid #e2e4eb; width: 564px; height: 336px; margin: 64px; border-radius: 8px; }
+
+.cards .card-2 h2 { padding: 48px 0px 0px 48px; font-family: "SF Pro", sans-serif; font-style: normal; font-weight: bold; font-size: 32px; line-height: 32px; }
+
+.cards .card-2 .text-icon-v2-1 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 40px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-2 .text-icon-v2-1 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-2 .text-icon-v2-2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 24px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-2 .text-icon-v2-2 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-2 .text-icon-v2-3 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 24px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-2 .text-icon-v2-3 svg { margin: 6px 14px 0px 0px; }
+
+.cards .card-2 .text-icon-v2-4 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 24px; margin-left: 48px; font-family: sans-serif; font-size: 16px; line-height: 24px; }
+
+.cards .card-2 .text-icon-v2-4 svg { margin: 6px 14px 0px 0px; }
+
+.box { width: 1160px; height: 298px; background: #eef0fe; border-radius: 8px; }
+/*# sourceMappingURL=style.css.map */
