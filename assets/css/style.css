@@ -162,11 +162,71 @@ nav .btn-1 .icon-profile { margin-left: -34px; margin-top: 8px; }
 
 .section-5 .row-3 .colom-5 button a { text-decoration: none; color: #212b36; }
 
-.section-6 { margin-top: 120px; background-color: #eef0fe; padding-top: 96px; }
+.section-6 { margin-top: 120px; background-color: #eef0fe; padding: 96px 0px 95px 0px; }
 
-.section-6 .row-3 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+.section-6 .row-3 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .section-6 .row-3 .colom-6 { -webkit-box-flex: 2; -ms-flex: 2; flex: 2; margin-left: 140px; }
 
+.section-6 .row-3 .colom-6 h1 { font-family: sans-serif; font-size: 24px; line-height: 32px; color: #212b36; }
+
+.section-6 .row-3 .colom-6 .stars p { margin: 8px 0px 16px 0px; font-family: sans-serif; font-style: normal; font-weight: normal; line-height: 24px; color: #637381; }
+
+.section-6 .row-3 .colom-6 .stars svg { margin-bottom: 36px; }
+
+.section-6 .row-3 .colom-6 p { font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 24px; color: #212b36; }
+
 .section-6 .row-3 .colom-7 { -webkit-box-flex: 2; -ms-flex: 2; flex: 2; }
+
+.section-7 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: 96px; }
+
+.section-7 h1 { font-family: sans-serif; font-style: normal; font-weight: bold; font-size: 40px; line-height: 50px; color: #212b36; }
+
+.section-7 h1 span { font-size: 20px; }
+
+.section-7 p { font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 14px; line-height: 24px; color: #637381; line-height: 16px; }
+
+.section-7 button { border: none; outline: none; padding: 21px 48px 21px 48px; background: #ffb800; border-radius: 100px; margin-top: 32px; cursor: pointer; }
+
+.section-7 button a { text-decoration: none; color: #212b36; font-family: sans-serif; font-size: 20px; line-height: 22px; }
+
+.section-7 hr { margin-top: 88px; width: 1160px; color: #E2E4EB; }
+
+.section-8 { margin: 56px 0px 0px 140px; }
+
+.section-8 h1 { font-family: sans-serif; font-style: normal; font-weight: bold; font-size: 32px; line-height: 32px; color: #212b36; }
+
+.section-8 .row-01 { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 21px; }
+
+.section-8 .row-01 p { font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 15px; color: #637381; margin-top: 8px; }
+
+.section-8 .row-01 h3 { font-family: sans-serif; font-style: normal; font-weight: bold; font-size: 16px; line-height: 20px; color: #212b36; margin-top: 8px; }
+
+footer { margin-top: 56px; }
+
+footer hr { width: 100%; color: #e2e4eb; }
+
+footer .footer-text { margin: 27px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+footer .footer-text a { text-decoration: none; font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 13px; line-height: 140%; color: #212b36; }
+
+footer .again { width: 1160px; color: #e2e4eb; margin-left: 370px; }
+
+footer .finel-text { display: -webkit-box; display: -ms-flexbox; display: flex; margin-left: 140px; margin-top: 24px; }
+
+footer .finel-text .colom-last { -webkit-box-flex: 6; -ms-flex: 6; flex: 6; }
+
+footer .finel-text .colom-last h2 { font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 140%; color: #212b36; }
+
+footer .finel-text .colom-last p { font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 12px; line-height: 140%; color: #637381; margin-top: 12px; }
+
+footer .finel-text .colum-last { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+footer .finel-text .colum-last .icons { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-right: 50px; }
+
+footer .finel-text .colum-last .icons :nth-child(1) { margin-left: 31px; }
+
+footer .finel-text .colum-last .icons :nth-child(2) { margin-left: 31px; }
+
+footer .finel-text .colum-last .icons :nth-child(3) { margin-left: 31px; }
 /*# sourceMappingURL=style.css.map */
